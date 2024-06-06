@@ -11,18 +11,18 @@ local Window = Rayfield:CreateWindow({
    },
    Discord = {
       Enabled = true,
-      Invite = "5tBNqX3Ngp", 
+      Invite = ":D", 
       RememberJoins = true 
    },
    KeySystem = true, 
    KeySettings = {
       Title = "Skull hub",
-      Subtitle = "نظام الكي",
+      Subtitle = "نظام المفتاح",
       Note = "لا يوجد شروحات حاليا لكيفية اخذ المفتاح",
       FileName = "ضع هنا المفتاح الخاص بك", 
       SaveKey = true,
       GrabKeyFromSite = false, 
-      Key = {"A7A"} 
+      Key = {"A7A", "yasser"} 
    }
 })
 
@@ -109,21 +109,21 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "DomainX",
+   Name = "coming soon",
    Callback = function()
-        loadstring(game:HttpGet('https://[Log in to view URL]'))() 
+       -- loadstring(game:HttpGet('https://[Log in to view URL]'))() 
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Destruction Simulator Aqua Modz",
+   Name = "coming soon",
    Callback = function()
-        loadstring(game:HttpGet('https://[Log in to view URL]'))()
+      ---  loadstring(game:HttpGet('https://[Log in to view URL]'))()
    end,
 })
 
-local Tab = Window:CreateTab("Info", nil) -- Title, Image
+local Tab = Window:CreateTab("Info", https://create.roblox.com/store/asset/6760424757/Anonymous ) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "By sskulll "})
 
-local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Discord Server : still "})
+local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Discord Server : coming soon "})
