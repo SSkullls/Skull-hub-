@@ -11,18 +11,18 @@ local Window = Rayfield:CreateWindow({
    },
    Discord = {
       Enabled = true,
-      Invite = "XHD5MPFq", 
+      Invite = "D5QZcZZW2w", 
       RememberJoins = true 
    },
    KeySystem = true, 
    KeySettings = {
       Title = "Skull hub",
-      Subtitle = "نظام المفتاح",
+      Subtitle = "نظام الكي",
       Note = "لا يوجد شروحات حاليا لكيفية اخذ المفتاح",
       FileName = "ضع هنا المفتاح الخاص بك", 
       SaveKey = true,
       GrabKeyFromSite = false, 
-      Key = {"A7A", "yasser"} 
+      Key = {"A7A"} 
    }
 })
 
@@ -111,19 +111,19 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "coming soon",
    Callback = function()
-        
+        --NULLL 
    end,
 })
 
 local Button = MainTab:CreateButton({
    Name = "coming soon",
    Callback = function()
-      
+        -- loadstring(game:HttpGet('https://[Log in to view URL]'))()
    end,
 })
 
-local Tab = Window:CreateTab("Info", https://create.roblox.com/store/asset/6760424757/Anonymous ) -- Title, Image
+local Tab = Window:CreateTab("Info", nil) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "By sskulll "})
 
-local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Discord Server : coming soon "})
+local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Discord Server : still "})
