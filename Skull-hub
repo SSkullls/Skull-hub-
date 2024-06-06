@@ -111,14 +111,14 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "coming soon",
    Callback = function()
-       -- loadstring(game:HttpGet('https://[Log in to view URL]'))() 
+        
    end,
 })
 
 local Button = MainTab:CreateButton({
    Name = "coming soon",
    Callback = function()
-      ---  loadstring(game:HttpGet('https://[Log in to view URL]'))()
+      
    end,
 })
 
