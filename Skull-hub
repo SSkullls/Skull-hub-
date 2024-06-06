@@ -1,0 +1,129 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Skull Hub",
+   LoadingTitle = "Skull",
+   LoadingSubtitle = "By sskulll",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, 
+      FileName = "Player Changer"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "5tBNqX3Ngp", 
+      RememberJoins = true 
+   },
+   KeySystem = true, 
+   KeySettings = {
+      Title = "Skull hub",
+      Subtitle = "نظام الكي",
+      Note = "لا يوجد شروحات حاليا لكيفية اخذ المفتاح",
+      FileName = "ضع هنا المفتاح الخاص بك", 
+      SaveKey = true,
+      GrabKeyFromSite = false, 
+      Key = {"A7A"} 
+   }
+})
+
+local MainTab = Window:CreateTab("Main", 17417895118) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+Rayfield:Notify({
+   Title = "السكربت اشتغل بنجاح!",
+   Content = "استمتع",
+   Duration = 5,
+   Image = 17417895118,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "حسنا!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Fishing Simulator",
+   Callback = function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/slightten/ouwHub/main/Fishing%20Simulator%20(OS)'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Westbound Inf Ammo",
+   Callback = function()
+        local mods = {
+    Damage = 999, 
+    FanFire = true, 
+    camShakeResist = 0, 
+    Spread = 0, 
+    prepTime = 0, 
+    equipTime = 0, 
+    MaxShots = math.huge, 
+    ReloadAnimationSpeed = 0, 
+    ReloadSpeed = 0, 
+    HipFireAccuracy = 0, 
+    ZoomAccuracy = 0, 
+    InstantFireAnimation = true
+}
+
+for _, gun in pairs(require(game:GetService("ReplicatedStorage").GunScripts.GunStats)) do
+    for prop, value in pairs(mods) do
+        if gun[prop] then
+            gun[prop] = value
+        end
+    end
+end
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Anime Rifts",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/slightten/ouwHub/main/Anime%20Rifts'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Demonfall",
+   Callback = function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/slightten/ouwHub/main/Demonfall'))()
+
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "blox fruit",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/slightten/ouwHub/main/blox%20fruits'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Slayer Tycoon",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/slightten/ouwHub/main/Slayer%20Tycoon'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "DomainX",
+   Callback = function()
+        loadstring(game:HttpGet('https://[Log in to view URL]'))() 
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Destruction Simulator Aqua Modz",
+   Callback = function()
+        loadstring(game:HttpGet('https://[Log in to view URL]'))()
+   end,
+})
+
+local Tab = Window:CreateTab("Info", nil) -- Title, Image
+
+local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "By sskulll "})
+
+local Paragraph = Tab:CreateParagraph({Title = "Info", Content = "Discord Server : still "})
