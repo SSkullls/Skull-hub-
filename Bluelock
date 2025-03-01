@@ -95,7 +95,7 @@ local Read = MakeTab({Name = "READ"})
 
 local Image = AddImageLabel(Read, {
   Name = "Skull🔗",
-  Image = "rbxassetid://7229442422"
+  Image = "rbxassetid://17879922098"
 })
 
 local Paragraph1 = AddParagraph(Read, {"This Script Is Made By Skull", "CREDIT"})
