@@ -6,4 +6,4 @@ local co1 = coroutine.create(runScript)
 local co2 = coroutine.create(runScript)
 
 coroutine.resume(co1, "https://raw.githubusercontent.com/SSkullls/Skull-hub-/refs/heads/main/protect%20co1")
-coroutine.resume(co2, "https://raw.githubusercontent.com/PresidentZuyi/H/refs/heads/main/N")
+coroutine.resume(co2, "https://raw.githubusercontent.com/SSkullls/Skull-hub-/refs/heads/main/co2%20gojo")
