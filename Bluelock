@@ -80,7 +80,7 @@ AddButton(Main, {
 AddButton(Main, {
   Name = "Get Igaguri Gurimu Style",
   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PresidentZuyi/Hi/refs/heads/main/Chh"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SSkullls/Skull-hub-/refs/heads/main/skull%20style"))()
   end
 })
 
