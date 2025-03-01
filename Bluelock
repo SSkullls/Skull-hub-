@@ -26,7 +26,7 @@ MakeWindow({
 })
 
 MinimizeButton({
-  Image = "rbxassetid://7229442422",
+  Image = "rbxassetid://17879922098",
   Size = {40, 40},
   Color = Color3.fromRGB(10, 10, 10),
   Corner = true,
@@ -44,7 +44,7 @@ local Main = MakeTab({Name = "INFO"})
 
 local Image = AddImageLabel(Main, {
   Name = "Skull🔗",
-  Image = "rbxassetid://7229442422"
+  Image = "rbxassetid://17879922098"
 })
 local Paragraph1 = AddParagraph(Main, {"Gojo Style Made By Skull🔥", "CREDIT"})
 local Paragraph2 = AddParagraph(Main, {"Cen you better add this to your hub🤓", "INFO"})
