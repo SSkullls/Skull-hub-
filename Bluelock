@@ -7,7 +7,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Presi
 
 MakeWindow({
   Hub = {
-    Title = "President Zuyi | Custom Styles✅🩵",
+    Title = "Skull | Custom Styles✅🩵",
     Animation = "Made By Skull"
   },
   Key = {
