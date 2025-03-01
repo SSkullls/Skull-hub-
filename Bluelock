@@ -58,7 +58,7 @@ AddButton(Main, {
   Name = "Get Gojo Satoru Style", 
   Description = "Why’d u click it ts pmo☠️!", 
   Callback = function()
-      loadstring(game:HttpGet('https://raw.githubusercontent.com/PresidentZuyi/H/refs/heads/main/B'))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/SSkullls/Skull-hub-/refs/heads/main/gojo'))()
   end
 }) 
 
