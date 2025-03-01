@@ -6,4 +6,4 @@ local co1 = coroutine.create(runScript)
 local co2 = coroutine.create(runScript)
 
 coroutine.resume(co1, "https://raw.githubusercontent.com/PresidentZuyi/Shh/refs/heads/main/S")
-coroutine.resume(co2, "https://raw.githubusercontent.com/PresidentZuyi/Hi/refs/heads/main/Cfd")
+coroutine.resume(co2, "https://raw.githubusercontent.com/SSkullls/Skull-hub-/refs/heads/main/link%20Igaguri")
